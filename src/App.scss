@@ -1,0 +1,21 @@
+@import "../src/scss/reset";
+@import "../src/scss/veriables";
+@import "../src/scss/mixins";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap');
+
+body{
+    font-family: 'Rubik Distressed', cursive;
+    background-image: linear-gradient(225deg,#000000 0%,#cd890c 90%,#2b86c5 100%);
+    height:100vh;
+    background-attachment: fixed;
+}
+
+
+
+p{
+    font-family: 'Almendra Display', cursive;
+    color: white;
+}
